@@ -1,7 +1,7 @@
 --flash NAND
 --mtdparts "512k(u-boot),512k(u-boot-env),256k(factory),-(firmware)"
 --model "c"
---kernel-offset 0x180000
+--kernel-offset 0x140000
 --reset-pin 18
 --sysled-pin 6
 --cpufreq 880
